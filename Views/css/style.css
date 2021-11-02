@@ -175,7 +175,7 @@ a{
     padding: 8px 0 0 0;
     margin-bottom: 8px;
 }
-.home .tweet-list .tweet .content .post-img{
+.home .tweet-list .tweet .content img.post-image{
     width: 100%;
     border-radius: 15px;
     margin-bottom: 10px;
