@@ -18,10 +18,10 @@
         <form action="sign-up.php" method="post">
             <img src="../Views/img/logo-white.svg" alt="" class="logo-white">
             <h1>アカウント作成</h1>
-            <input type="text" class="form-control" name="nickname" placeholder="ニックネーム" maxlength="128" require autofocus>
-            <input type="text" class="form-control" name="name" placeholder="ユーザー名" maxlength="128" require>
-            <input type="email" class="form-control" name="email" placeholder="メールアドレス" maxlength="254" require>
-            <input type="password" class="form-control" name="password" placeholder="パスワード" minlength="4" require>
+            <input type="text" class="form-control" name="nickname" placeholder="ニックネーム" maxlength="128" required autofocus>
+            <input type="text" class="form-control" name="name" placeholder="ユーザー名" maxlength="128" required>
+            <input type="email" class="form-control" name="email" placeholder="メールアドレス" maxlength="254" required>
+            <input type="password" class="form-control" name="password" placeholder="パスワード" minlength="4" required>
             <button class="w-100 btn btn-lg" type="submit">登録する</button>
             <p class="mt-3 mb-2"><a href="sign-in.php">ログインはこちら</a></p>
             <p class="mt-2 mb-3 text-muted">&copy;2021</p>
