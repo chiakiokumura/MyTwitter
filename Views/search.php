@@ -38,33 +38,24 @@ $view_tweets = [
 <html lang="ja">
 <head>
     <?php include_once('../Views/common/head.php'); ?>
-    <title>ホーム画面 / Mytwitter</title>
-    <meta name="discription" content="ホーム画面です">
+    <title>検索画面 / Mytwitter</title>
+    <meta name="discription" content="検索画面です">
 </head>
-<body class="home">
+<body class="home search text-center">
     <div class="container">
         <?php include_once('../Views/common/side.php'); ?>  
         <div class="main">
             <div class="main-header">
-                <h1>HOME</h1>
+                <h1>検索</h1>
             </div>
-            <!-- つぶやき投稿エリア -->
-            <div class="tweet-post">
-                <div class="my-icon">
-                    <img src="<?php echo HOME_URL;?>Views/img_uploaded/user/sample-person.jpg" alt="プロフィール画像">
+
+            <!-- 検索エリア -->
+            <form action="search.php" method="get">
+                <div class="search-area">
+                    <input type="text" class="form-control" placeholder="キーワード検索" name="keyword" value="">
+                    <button type="submit" class="btn">検索</button>
                 </div>
-                <div class="input-area">
-                    <form action="post.php" action="post" enctype="multipart/form-data">
-                        <textarea name="body" placeholder="どうしたの？" max-length="140"></textarea>
-                        <div class="bottom-aera">
-                            <div class="mb-0">
-                                <input type="file" name="image" class="form-control form-control-sm">
-                            </div>
-                            <button class="btn" type="submit">つぶやく</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+            </form>
 
             <!-- 仕切りエリア -->
             <div class="ditch"></div>
