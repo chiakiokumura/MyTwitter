@@ -19,7 +19,7 @@
                     <img src="<?php echo htmlspecialchars($view_user['image_path']); ?>" alt="プロフィール画像">
                 </div>
                 <div class="input-area">
-                    <form action="post.php" action="post" enctype="multipart/form-data">
+                    <form action="post.php" method="post" enctype="multipart/form-data">
                         <textarea name="body" placeholder="どうしたの？" max-length="140"></textarea>
                         <div class="bottom-aera">
                             <div class="mb-0">
@@ -30,6 +30,7 @@
                     </form>
                 </div>
             </div>
+            
 
             <!-- 仕切りエリア -->
             <div class="ditch"></div>

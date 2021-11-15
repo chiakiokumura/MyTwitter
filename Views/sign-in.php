@@ -8,8 +8,8 @@
 <body class="signup text-center">
     <main class="form-signup">
         <form action="sign-in.php" method="post">
-            <img src="<?php echo HOME_URL; ?>Views/img/logo-white.svg" alt="" class="logo-white">
-            <h1>Mytwitterにログイン</h1>
+            <img src="<?php echo HOME_URL; ?>/Views/img/hope-share3.png" alt="" class="logo-white">
+            <h1>HopeShareにログイン</h1>
 
         <?php if(isset($view_try_login_result) && $view_try_login_result === false) : ?>
             <div class="alert alert-warning text-sm" role="alert">

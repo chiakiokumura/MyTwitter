@@ -8,6 +8,9 @@ html {
     display: flex;
     justify-content: center;
 }
+body {
+    background-color: #FFFFE0;
+}
 .side{
     width: 90px;
 }
@@ -48,7 +51,7 @@ html {
     padding: .3rem .3rem;
 }
 .btn{
-    background-color: #1af;
+    background-color: #FCC761;
     color: #fff;
     font-size: 15px;
     font-weight: bold;
@@ -66,7 +69,7 @@ html {
 }
 a{
     font-size: 13px;
-    color: #1af;
+    color: #FCC761;
     text-decoration: none;
 }
 text-sm{
@@ -93,12 +96,15 @@ text-sm{
     width: 80%;
 }
 .side .side-inner .my-icon {
+    width: 100px;
+    height: 100px;
     position: absolute;
     z-index: 1;
     bottom: 0;
 }
 .side .side-inner .my-icon img {
-    width: 60%;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 0.2px solid #aaa;
 }
@@ -120,11 +126,13 @@ text-sm{
     padding: 10px;
 }
 .home .tweet-post .my-icon{
-    width: 80px;
+    width: 100px;
+    height: 100px;
     padding: 5px 15px 10px 10px;
 }
 .home .tweet-post .my-icon img{
-    width: 100%;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     border: o.2px solid #eef;
 }
@@ -161,12 +169,14 @@ text-sm{
 }
 .home .tweet-list .tweet .user{
     width: 80px;
+    height: 80px;
     padding: 5px 15px 10px 10px;
 }
 .home .tweet-list .tweet .user img{
-    width: 100%;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    border: 0.2px solid #eef
+    border: 0.2px solid #eef;
 }
 .home .tweet-list .tweet .name{
     padding-top: 5px;
@@ -233,7 +243,7 @@ body.signup{
 
 }
 .signup{
-    background-color: #123;
+    background-color: #FFFFE0;
     color: #fff;
 }
 .signup .form-signup{
@@ -242,24 +252,21 @@ body.signup{
     padding: 15px;
     margin: auto;
 }
-.signup .logo-white{
-    margin-bottom: 30px;
-    width: 50px;
-}
+.signup .logo-white{margin: 0 auto;width: 100%;}
 .signup h1{
     font-size: 20px;
     margin-bottom: 20px;
+    margin-top: -30px;
+    color: #FCC761;
 }
 .signup input{
     margin-bottom: 10px;
-    background-color: #123;
+    background-color: #FFFFE0;
     border-color: #456;
-    color: #fff;
 }
 .signup input:focus{
-    background-color: #123;
+    background-color: #FFFFE0;
     border-color: #1af;
-    color: #fff;
 }
 /*
 ユーザー画面
@@ -273,11 +280,12 @@ body.signup{
     align-items: flex-end; 
 }
 .profile .profile-area .top .user{
-    width: 30%;
+    width: 100px;
     padding: 5px 15px 10px 0;
 }
 .profile .profile-area .top .user img{
-    width: 100%;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     border: 3px solid rgb(235, 238, 240);
 }

@@ -1,7 +1,7 @@
 <div class="side">
     <div class="side-inner">
         <ul class="nav flex-column">
-            <li class="nav-item"><a href="home.php" class="nav-link"><img src="<?php echo HOME_URL;?>Views/img/logo-twitterblue.svg" alt="サイトロゴ画像" class="icon"></a></li>
+            <li class="nav-item"><a href="home.php" class="nav-link"><img src="<?php echo HOME_URL;?>/Views/img/hope-share-icon.png" alt="サイトロゴ画像" class="icon"></a></li>
             <li class="nav-item"><a href="home.php" class="nav-link"><img src="<?php echo HOME_URL;?>Views/img/icon-home.svg" alt=""></a></li>
             <li class="nav-item"><a href="search.php" class="nav-link"><img src="<?php echo HOME_URL;?>Views/img/icon-search.svg" alt=""></a></li>
             <li class="nav-item"><a href="notification.php" class="nav-link"><img src="<?php echo HOME_URL;?>Views/img/icon-notification.svg" alt=""></a></li>

@@ -16,7 +16,9 @@
         <?php if (isset($view_tweet['tweet_image_name'])) : ?>
             <img src="<?php echo buildImagePath($view_tweet['tweet_image_name'], 'tweet'); ?>" alt="" class="post-image">
         <?php endif; ?>
- 
+
+        
+        
         <div class="icon-list">
             <div class="like js-like" data-tweet-id="<?php echo htmlspecialchars($view_tweet['tweet_id']); ?>" data-like-id="<?php echo htmlspecialchars($view_tweet['like_id']); ?>">
                 <?php

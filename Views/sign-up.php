@@ -9,7 +9,7 @@
 <body class="signup text-center">
     <main class="form-signup">
         <form action="sign-up.php" method="post">
-            <img src="<?php echo HOME_URL; ?>Views/img/logo-white.svg" alt="" class="logo-white">
+            <img src="<?php echo HOME_URL; ?>/Views/img/hope-share3.png" alt="" class="logo-white">
             <h1>アカウント作成</h1>
             <input type="text" class="form-control" name="nickname" placeholder="ニックネーム" maxlength="128" required autofocus>
             <input type="text" class="form-control" name="name" placeholder="ユーザー名" maxlength="128" required>
